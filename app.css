@@ -1,0 +1,103 @@
+
+body{
+    font-family: marope;
+    background-color: hsl(217, 19%, 24%);
+
+
+}
+
+
+.contenido{
+
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+
+}
+.container{
+    width: 100%;
+    height: 0px;
+    margin-top: 20px;
+}
+span{
+    margin-top: 30px;
+    font-family: marope;
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+.card {
+    width: 480px;
+    height: 280px;
+    margin: auto;
+    text-align: center;
+    top: 110px;
+    background-color:hsl(217, 19%, 38%);
+    border-radius: 0 40px;
+}
+
+.card-body p{
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    color: hsl(193, 38%, 86%);
+    font-family: marope;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: oblique;
+
+}
+
+.card-foter{
+    width: 100%;
+    height: 60px;
+}
+hr{
+    padding: 1px;
+    color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+button{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    position: absolute;
+    left: 213px;
+    top: 252px;
+    background-color: hsl(150, 100%, 66%);
+    border: 2px solid hsl(150, 100%, 66%);;
+
+    
+
+}
+button:hover{
+    background-color: hsl(188, 8%, 35%);
+}
+
+button img{
+    width: 18px;
+    margin: auto;
+    background-color: hsl(218, 55%, 37%);
+    image-rendering: optimizeSpeed;
+
+}
+
+@media only screen and (width: 375px) {
+    
+    .card{
+        width: 332px;
+        height: 317px;
+        margin-left: 22px;
+    }
+     button{
+        left: 144px;
+        top: 285px;
+    }
+  }
